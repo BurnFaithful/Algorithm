@@ -4,4 +4,5 @@
 '''
 
 n, m = map(int, input().split(' '))
-print(n, m)
+for row in range(m):
+    print('*' * n)
